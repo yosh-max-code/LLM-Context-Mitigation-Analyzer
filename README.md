@@ -11,17 +11,17 @@ This project tests the practical limitations of context windows in LLM applicati
 
 ## Features
 
-✅ **Dual Pipeline Architecture**
+ **Dual Pipeline Architecture**
 - Pipeline 1: Sends chunks individually (context refresh approach)
 - Pipeline 2: Sends all chunks as one batch
 
-✅ **Multi-Metric Analysis System**
+ **Multi-Metric Analysis System**
 - Response time comparison
 - Sentiment analysis (TextBlob - polarity & subjectivity)
 - Semantic similarity (scikit-learn cosine similarity)
 - Character count analysis
 
-✅ **Automated Testing Framework**
+ **Automated Testing Framework**
 - Runs same queries through both pipelines
 - Collects quantifiable results
 
@@ -75,7 +75,7 @@ PIPELINE 1: Individual Chunks
 ==================================================
 Number of responses: 3
 Metrics: {'sentiment': 0.097, 'subjectivity': 0.441}
-Time taken: 15.589 seconds
+Time taken: 5.589 seconds
 
 ==================================================
 PIPELINE 2: Batch
