@@ -75,21 +75,21 @@ PIPELINE 1: Individual Chunks
 ==================================================
 Number of responses: 3
 Metrics: {'sentiment': 0.097, 'subjectivity': 0.441}
-Time taken: 5.589 seconds
+Time taken: z seconds
 
 ==================================================
 PIPELINE 2: Batch
 ==================================================
 Number of responses: 1
 Metrics: {'sentiment': 0.178, 'subjectivity': 0.517}
-Time taken: 8.358 seconds
+Time taken: z seconds
 
 ==================================================
 COMPARISON
 ==================================================
-Similarity score: 0.624
-Time difference: 7.231 seconds
-Batch was faster by 7.231 seconds
+Similarity score: y
+Time difference: x seconds
+Batch was faster by z seconds
 ```
 
 ## Author
